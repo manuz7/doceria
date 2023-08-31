@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Image, Dimensions, Text, View} from 'react-native';
 
 import topo from '../../../assets/topo.png';
-
+import logo from '../../../assets/logo.png';
 
 
 const width = Dimensions.get('screen').width;

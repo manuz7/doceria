@@ -1,5 +1,5 @@
 import { View, StatusBar, SafeAreaView } from 'react-native';
-import Doceria from './src/pages/Doceria';
+import Doceria from './src/pages/Cardapio';
 import{useFonts,
        Montserrat_400Regular,
        Montserrat_700Bold,
@@ -22,7 +22,7 @@ export default function App() {
   return (
     <SafeAreaView>
        <StatusBar/>
-   <Carrinho/>
+   <Doceria/>
     </SafeAreaView>
   );
 }
